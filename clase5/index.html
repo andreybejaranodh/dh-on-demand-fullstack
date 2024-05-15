@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulario Registro de usuario</h2>
+    <form action="" method="">
+        <label for="first_name">Nombre</label>
+        <input type="text" name="first_name" id="first_name" placeholder="Ingrese Nombre">
+        <label for="last_name">Apellido</label>
+        <input type="text" name="last_name" id="last_name" placeholder="Ingrese Apellido">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email">
+        <label for="age">Edad</label>
+        <input type="number" name="age" id="age">
+        <label for="birthday">Fecha de nacimiento</label>
+        <input type="date" name="birthday" id="birthday">
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" placeholder="Ingresa Contraseña">
+        <label for="confirm_password">Confirmar Contraseña</label>
+        <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirmar Contraseña">
+        <h5>Hobbies</h5>
+        <input type="checkbox" name="hobbies[]" id="hobbies_footbal" value="1">
+        <label for="hobbies_footbal">Futbol</label>
+        <input type="checkbox" name="hobbies[]" id="hobbies_dance" value="2">
+        <label for="hobbies_dance">Bailar</label>
+        <input type="checkbox" name="hobbies[]" id="hobbies_gamer" value="3">
+        <label for="hobbies_gamer">Jugar Video Juegos</label>
+        <br>
+        <h5>Genero</h5>
+        <label for="m_genre">Hombre</label>
+        <input type="radio" name="genre" id="m_genre" value="m">
+        <label for="f_genre">Mujer</label>
+        <input type="radio" name="genre" id="f_genre" value="f">
+        <label for="na_genre">No especifica</label>
+        <input type="radio" name="genre" id="na_genre" value="na">
+        <br>
+        <label for="avatar">Avatar</label>
+        <input type="file" name="avatar" id="Avatar">
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="button">No tiene accion</button>
+        <button type="reset">Limpiar</button>
+    </form>
+</body>
+</html>
