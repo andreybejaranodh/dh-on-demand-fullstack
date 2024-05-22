@@ -1,0 +1,60 @@
+main {
+    position: relative;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    font-size: 48px;
+    text-align: center;
+}
+
+#box1 span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#box1 {
+    position: relative;
+    background-color: red;
+    z-index: 1;
+    top: 24px;
+    left: 24px;
+}
+
+#box2 {
+    position: relative;
+    background-color: yellow;
+}
+
+#box3 {
+    position: absolute;
+    background-color: blue;
+    top: 0;
+    right: 0;
+}
+
+#box4 {
+    border-radius: 50%;
+    position: fixed;
+    background-color: green;
+    bottom: 26px;
+    right: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box4 > div {
+    height: 25%;
+    width: 25%;
+    background-color: brown;
+}
+
+#box5 {
+    background-color: gray;
+    width: 50vw;
+    height: 50vh;
+}
