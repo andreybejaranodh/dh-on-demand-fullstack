@@ -1,0 +1,104 @@
+:root {
+    --width-card: 95%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  background-color: aquamarine;
+  align-items: flex-end;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.header .nav .menu {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  list-style: none;
+}
+
+.header .nav .menu .menu-item {
+  cursor: pointer;
+}
+
+.header .nav .menu .menu-item:hover {
+  background-color: rgba(0, 0, 0, 0.17);
+}
+
+main > .banner {
+  height: 50vh;
+  font-size: 64px;
+}
+
+main .card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+main .card-container .card {
+  flex-basis: var(--width-card);
+  height: 400px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-size: 48px;
+  cursor: pointer;
+  transition: transform 300ms;
+}
+
+main .card-container .card:hover {
+  transform: scale(1.03);
+  border-color: orange;
+  border-width: 2px;
+  outline: rgb(245, 160, 2);
+  -webkit-box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media (min-width: 480px) {
+    :root {
+        --width-card: 48%;
+    }
+}
+
+@media (min-width: 768px) {
+    :root {
+        --width-card: 32%;
+    }
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --width-card: 24%;
+    }
+}
+
+@media (min-width: 1280px) {
+    :root {
+        --width-card: 19%;
+    }
+}
+
+
+
+
+/* main .card-container .card {
+  flex-basis: 19%;
+  height: 400px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-size: 48px;
+  cursor: pointer;
+  transition: transform 300ms;
+} */
