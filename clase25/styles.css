@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header,
+.header .nav, 
+.header .nav .menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    position: relative;
+    background-color: blue;
+    height: 50px;
+    align-items: center;
+    padding: 0 8px;
+}
+
+.header .nav .menu {
+    position: absolute;
+    top: 50%;
+    flex-direction: column;
+    gap: 8px;
+    background-color: blue;
+    display: none;
+}
+
+/* .header .btn-menu:hover + .nav > .menu {
+    display: flex;
+} */
+
+.header .menu.show-menu {
+    display: flex;
+}
+
+.header .btn-menu {
+    color: white;
+    cursor: pointer;
+} 
+
+.header .nav .menu li {
+    list-style: none;
+}
+
+.header .nav .menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-page .login-form .error {
+    color: red;
+    font-style: italic;
+}
