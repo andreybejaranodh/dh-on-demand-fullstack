@@ -1,0 +1,27 @@
+URL: https://api.test.com:443/api/v1/user
+protocolo: http o https
+host o dominio: api.test.com
+puerto: https=443, http=80
+path: /api/v1/user
+
+GET, POST, 
+https://api.test.com:443/api/v1/user/{USER_ID}
+PUT, PATCH, DELETE
+
+
+status codes:
+200, 400, 500
+200: OK
+201: CREATED
+202: ACCEPTED
+204: NO CONTENT
+
+400: BAD REQUEST
+401: UNAUTHORIZED
+403: FORBIDDEN
+404: NOT FOUND
+422: UNPROCESSABLE ENTITY
+
+500: INTERNAL SERVER ERROR
+
+Recive y responde los datos en formato JSON

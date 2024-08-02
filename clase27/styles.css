@@ -1,0 +1,26 @@
+.loading {
+  height: 8px;
+  width: 100%;
+  background-color: #efecec;
+}
+
+.loading-bar {
+  height: 100%;
+  background-color: #c4c2c2;
+  width: 0%;
+  animation: 2s ease infinite loading;
+}
+
+@keyframes loading {
+  form {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+#users-table,
+#users2-table {
+  display: none;
+}
