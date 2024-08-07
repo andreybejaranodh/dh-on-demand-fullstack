@@ -1,0 +1,131 @@
+/* Reset basico, siempre debe ir al inicio del archivo principal de css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --header-height: 54px;
+  --footer-height: 50px;
+  --card-container-grid: repeat(1, 1fr);
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-height);
+  background-color: #d0d0d0;
+  padding: 0 4px;
+}
+
+#header #nav {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#header #nav #menu {
+  display: none;
+  position: absolute;
+  left: 4px;
+  top: 70%;
+  background-color: #939393f0;
+  width: 150px;
+  padding: 8px;
+}
+
+#header #nav #menu li {
+  list-style: none;
+}
+
+.hide {
+  display: none;
+}
+
+#header #nav #menu.show-menu {
+  display: block;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: var(--footer-height);
+  background-color: #d0d0d0;
+}
+
+#main {
+  margin-top: var(--header-height);
+  margin-bottom: var(--footer-height);
+  padding: 0 8px;
+}
+
+#header #logo-container {
+  display: none;
+}
+
+#header #logo-container #logo {
+  height: calc(var(--header-height) - 4px);
+}
+
+#main .card-container {
+  display: grid;
+  grid-template-columns: var(--card-container-grid);
+  gap: 8px;
+}
+
+#main .card {
+  height: 380px;
+  background-color: red;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+@media (min-width: 600px) {
+  :root {
+    --card-container-grid: repeat(2, 1fr);
+    --header-height: 60px;
+  }
+}
+
+@media (min-width: 900px) {
+  #header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #header #logo-container {
+    display: block;
+  }
+
+  #header #nav #btn-menu {
+    display: none;
+  }
+
+  #header #nav #menu {
+    display: flex;
+    gap: 8px;
+    position: relative;
+    left: initial;
+    top: initial;
+    align-items: center;
+    background-color: transparent;
+    flex-direction: row;
+    width: auto;
+  }
+
+  :root {
+    --card-container-grid: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --card-container-grid: repeat(4, 1fr);
+  }
+}
