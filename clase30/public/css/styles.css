@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    height: 54px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    background-color: red;
+}
