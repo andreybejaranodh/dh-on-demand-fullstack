@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-height: 54px;
+    --footer-height: 70px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    height: var(--header-height);
+    width: 100%;
+    background-color: yellow;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: var(--footer-height);
+    width: 100%;
+    background-color: red;
+}
+
+.container {
+    padding-top: var(--header-height);
+    padding-bottom: var(--footer-height);
+}
