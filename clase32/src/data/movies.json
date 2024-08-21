@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "title": "Origen",
+      "description": "Un ladrón hábil, el mejor en el peligroso arte de la extracción, roba valiosos secretos desde lo más profundo del subconsciente durante el estado de sueño, cuando la mente está más vulnerable.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+      "genre": "Ciencia Ficción",
+      "directors": ["Christopher Nolan"],
+      "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"]
+    },
+    {
+      "id": 2,
+      "title": "Sueños de Libertad",
+      "description": "Dos hombres encarcelados se unen durante varios años, encontrando consuelo y eventual redención a través de actos de decencia común.",
+      "poster": "https://m.media-amazon.com/images/I/519NBNHX5BL._AC_.jpg",
+      "genre": "Drama",
+      "directors": ["Frank Darabont"],
+      "cast": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"]
+    },
+    {
+      "id": 3,
+      "title": "El Caballero de la Noche",
+      "description": "Cuando el peligro conocido como el Joker emerge de su misterioso pasado, provoca caos en la gente de Gotham. El Caballero de la Noche debe aceptar una de las pruebas psicológicas y físicas más grandes de su capacidad para luchar contra la injusticia.",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGynrte4ZbbyvDGDQJltnfyoBqZE2fioii2g&s",
+      "genre": "Acción",
+      "directors": ["Christopher Nolan"],
+      "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"]
+    },
+    {
+      "id": 4,
+      "title": "Tiempos Violentos",
+      "description": "Las vidas de dos asesinos a sueldo, un boxeador, la esposa de un gánster y un par de bandidos de cafetería se entrelazan en cuatro historias de violencia y redención.",
+      "poster": "https://m.media-amazon.com/images/I/71c05lTE03L._AC_SY679_.jpg",
+      "genre": "Crimen",
+      "directors": ["Quentin Tarantino"],
+      "cast": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"]
+    },
+    {
+      "id": 5,
+      "title": "Matrix",
+      "description": "Un hacker informático aprende de unos rebeldes misteriosos sobre la verdadera naturaleza de su realidad y su papel en la guerra contra sus controladores.",
+      "poster": "https://m.media-amazon.com/images/I/51vpnbwFHrL._AC_.jpg",
+      "genre": "Ciencia Ficción",
+      "directors": ["Lana Wachowski", "Lilly Wachowski"],
+      "cast": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"]
+    },
+    {
+      "id": 6,
+      "title": "Gladiador",
+      "description": "Un ex general romano se convierte en gladiador después de ser traicionado por el emperador, buscando venganza por la muerte de su familia.",
+      "poster": "https://es.web.img3.acsta.net/medias/nmedia/18/70/92/02/20149073.jpg",
+      "genre": "Acción",
+      "directors": ["Ridley Scott"],
+      "cast": ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"]
+    },
+    {
+      "id": 7,
+      "title": "Titanic",
+      "description": "Una joven de la alta sociedad se enamora de un artista pobre a bordo del lujoso y malogrado Titanic.",
+      "poster": "https://es.web.img3.acsta.net/medias/nmedia/18/86/91/41/19870073.jpg",
+      "genre": "Romance",
+      "directors": ["James Cameron"],
+      "cast": ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"]
+    },
+    {
+      "id": 8,
+      "title": "El Padrino",
+      "description": "El envejecido patriarca de una dinastía criminal traslada el control de su imperio clandestino a su hijo reacio.",
+      "poster": "https://m.media-amazon.com/images/I/51rOnIjLqzL._AC_.jpg",
+      "genre": "Crimen",
+      "directors": ["Francis Ford Coppola"],
+      "cast": ["Marlon Brando", "Al Pacino", "James Caan"]
+    },
+    {
+      "id": 9,
+      "title": "Parásitos",
+      "description": "Una familia pobre se infiltra en la vida de una rica familia haciéndose pasar por trabajadores cualificados, con consecuencias inesperadas.",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/5/53/Parasite_%282019_film%29.png",
+      "genre": "Suspenso",
+      "directors": ["Bong Joon-ho"],
+      "cast": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"]
+    },
+    {
+      "id": 10,
+      "title": "Interstellar",
+      "description": "Un grupo de exploradores espaciales viaja a través de un agujero de gusano en un intento de asegurar la supervivencia de la humanidad.",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+      "genre": "Ciencia Ficción",
+      "directors": ["Christopher Nolan"],
+      "cast": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"]
+    }
+  ]
+  
