@@ -1,0 +1,96 @@
+:root {
+  /* Colors */
+  --default-color: #fdfdfd;
+  --black-color: #111111;
+  --primary-color: #ff6b00;
+  --background-primary: #0d0d0d;
+
+  /* Typography */
+  --h1: 128px;
+  --h2: 64px;
+  --h3: 48px;
+  --h4: 32px;
+  --h5: 24px;
+  --body1: 16px;
+  --body2: 12px;
+}
+
+body,
+html {
+  color: var(--default-color);
+  background-color: var(--background-primary);
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+h5 {
+  font-size: var(--h5);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+.body1 {
+  font-size: var(--body1);
+}
+
+.body2 {
+  font-size: var(--body2);
+}
+
+.default-color-text {
+  color: var(--default-color);
+}
+
+.black-color-text {
+  color: var(--black-color);
+}
+
+.primary-color-text {
+  color: var(--primary-color);
+}
+
+.container {
+  margin: 0 120px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.header .nav {
+  display: flex;
+  gap: 48px;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+}
+
+.header .nav .menu {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
