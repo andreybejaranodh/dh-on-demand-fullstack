@@ -1,0 +1,2 @@
+8/27/2024, 9:58:07 PM - DELETE - /api/movie
+8/27/2024, 9:58:37 PM - DELETE - /api/movie/12
