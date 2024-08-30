@@ -1,0 +1,28 @@
+<%- include('../partials/head', { title: 'Crear Pelicula' }) %>
+
+<%- include('../partials/header') %>
+
+<main class="container create-movie-page">
+    <form id="create-movie-form" action="/movie/create" method="post" enctype="multipart/form-data">
+        <label for="txtTitle">Titulo</label>
+        <input type="text" id="txtTitle" name="title">
+        <label for="txtDescription">Descripción</label>
+        <input type="text" id="txtDescription" name="description">
+        <label for="filePoster">Poster</label>
+        <input type="file" id="filePoster" name="poster" accept="image/*">
+        <label for="cmbGenre">Genero</label>
+        <select id="cmbGenre" name="genre">
+            <option value="">-- Seleccione --</option>
+            <% locals.genres?.forEach(function(genre) { %>
+                <option value="<%= genre.name %>"><%= genre.name %></option>
+            <% }) %>
+        </select>
+        <label for="txtDirectors">Directores(Cada director debe estar separado por una coma)</label>
+        <input type="text" id="txtDirectors" name="directors">
+        <label for="txtCast">Reparto(Cada actor debe estar separado por una coma)</label>
+        <input type="text" id="txtCast" name="cast">
+        <button type="submit">Crear</button>
+    </form>
+</main>
+
+<%- include('../partials/footer') %>

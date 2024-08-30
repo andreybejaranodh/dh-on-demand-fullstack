@@ -1,0 +1,13 @@
+<%- include('partials/head', { title: 'Inicio' }) %>
+
+<%- include('partials/header') %>
+<main class="container">
+    <section class="movies-container">
+        <% locals.movies?.forEach(movie => { %>
+        <article class="movie">
+            <img class="movie-poster" src="/img/movies/<%= movie.poster %>" alt="<%= movie.title %>">
+        </article>
+        <% }); %>
+    </section>
+</main>
+<%- include('partials/footer') %>
