@@ -1,0 +1,6 @@
+<header class="header">
+    <% if (locals.user) { %>
+        <h5>Bienvenido <%= user.name %></h5>
+        <a href="/user/logout"><button>Cerrar sesión</button></a>
+    <% } %>
+</header>

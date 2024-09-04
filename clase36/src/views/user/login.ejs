@@ -1,0 +1,27 @@
+<%- include('../partials/head', { title: 'Login', styles: ['login'] }) %>
+
+<%- include('../partials/header') %>
+<main class="container">
+    <form action="/user/login" method="POST" class="login-form">
+        <label for="txtEmail">E-mail</label>
+        <input type="email" name="email" id="txtEmail" required>
+        <% if (locals.errors?.email) { %>
+        <p class="error-message">
+            <%= errors.email?.msg %>
+        </p>
+        <% } %>
+        <label for="txtPassword">Contraseña</label>
+        <input type="password" name="password" id="txtPassword">
+        <% if (locals.errors?.password) { %>
+        <p class="error-message">
+            <%= errors.password?.msg %>
+        </p>
+        <% } %>
+        <% if (locals.errors?.crendentials) { %>
+        <p class="error-message">
+            <%= errors.crendentials?.msg %>
+        </p><% } %>
+        <button type="submit">Iniciar Sesion</button>
+    </form>
+</main>
+<%- include('../partials/footer') %>
