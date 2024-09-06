@@ -1,0 +1,13 @@
+<header class="header">
+    <nav>
+        <ul class="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/user/login">Login</a></li>
+            <li><a href="/user/register">Register</a></li>
+        </ul>
+    </nav>
+    <% if (locals.user) { %>
+        <h5>Bienvenido <%= user.name %></h5>
+        <a href="/user/logout"><button>Cerrar sesión</button></a>
+    <% } %>
+</header>
