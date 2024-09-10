@@ -1,0 +1,6 @@
+9/10/2024, 8:46:54 PM - GET - /user/login
+9/10/2024, 8:46:56 PM - GET - /
+9/10/2024, 8:46:57 PM - GET - /favicon.ico
+9/10/2024, 8:47:54 PM - GET - /
+9/10/2024, 8:48:24 PM - GET - /movie/detail
+9/10/2024, 8:48:50 PM - GET - /movie/detail
