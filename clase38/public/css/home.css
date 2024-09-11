@@ -1,0 +1,33 @@
+#home-container #banner {
+  height: 35dvh;
+  width: 100%;
+  background-image: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%),
+    url(../img/banner.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+@media (min-width: 600px) {
+  #home-container #banner {
+    height: 55dvh;
+  }
+}
+
+@media (min-width: 900px) {
+  #home-container #banner {
+    height: 73dvh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #home-container #banner {
+    height: 100dvh;
+  }
+}

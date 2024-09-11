@@ -53,6 +53,9 @@ const controller = {
         delete req.session.user;
         res.clearCookie('userEmail');
         return res.redirect('/');
+    },
+    register: (req, res) => {
+        return res.render('user/register');
     }
 };
 

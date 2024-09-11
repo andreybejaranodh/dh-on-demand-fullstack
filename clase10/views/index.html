@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -18,40 +18,55 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <section class="logo-container">
-                <img src="/img/logo.png" alt="Liteflix Logo">
-            </section>
-            <nav class="nav">
-                <div class="search">
-                    <span class="material-symbols-outlined">
-                        search
-                    </span>
-                </div>
-                <ul class="menu">
-                    <li>Inicio</li>
-                    <li>Tendencias</li>
-                </ul>
-                <div>
-                    <span class="material-symbols-outlined">
-                        notifications
-                    </span>
-                </div>
-                <div>
-                    <span class="material-symbols-outlined">
-                        person
-                    </span>
-                </div>
-            </nav>
-        </header>
+    <header id="header">
+        <div id="logo-container">
+            <img id="logo" src="../img/logo.png" alt="Logo Liteflix">
+        </div>
+        <nav id="nav">
+            <div id="btn-menu">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </div>
+            <div id="search-bar">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </div>
+            <ul id="menu">
+                <li>
+                    <a href="">Inicio</a>
+                </li>
+                <li>
+                    <a href="">Tendencias</a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="hidde-md material-symbols-outlined">
+                            notifications
+                        </span>
+                        <span class="hidde-lg">Notificaciones</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="hidde-md material-symbols-outlined">
+                            person
+                        </span>
+                        <span class="hidde-lg">Cuenta</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-        <main class="main home-container">
+    <main id="main">
+        <div id="banner">
+            
+        </div>
+    </main>
 
-        </main>
-
-        <footer class="footer"></footer>
-    </div>
+    <footer id="footer"></footer>
 </body>
 
 </html>
