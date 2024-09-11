@@ -1,0 +1,14 @@
+<%- include('../partials/head', { title: 'Registrarme', styles: ['register'] }) %>
+
+<%- include('../partials/header') %>
+
+<main id="register-container">
+    <form id="register-form">
+        <input type="email" name="email" placeholder="Email">
+        <input type="password" name="password" placeholder="Contraseña">
+        <input type="password" name="confirmPassword" placeholder="Confirmar Contraseña">
+        <button class="btn-primary" type="submit">Registrarme</button>
+    </form>
+</main>
+
+<%- include('../partials/footer') %>

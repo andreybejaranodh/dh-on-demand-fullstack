@@ -1,0 +1,18 @@
+<%- include('../partials/head', { title: 'Login', styles: ['login'] }) %>
+
+<%- include('../partials/header') %>
+
+<main id="login-container">
+    <form id="login-form">
+        <img id="logo" src="/img/logo.png" alt="Logo Liteflix">
+        <input type="email" name="email" placeholder="Email">
+        <input type="password" name="password" placeholder="Contraseña">
+        <div>
+            <input type="checkbox" name="remember"> <label>Recordarme</label>
+        </div>
+        <button class="btn-primary" type="submit">Iniciar Sesion</button>
+        <a href="/user/register">Registrarme</a>
+    </form>
+</main>
+
+<%- include('../partials/footer') %>
