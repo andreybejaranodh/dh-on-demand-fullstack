@@ -1,14 +1,14 @@
 /*
-Con este script se enseñan los conceptos base para crear base de datos, tablas y sus campos,
-la idea es mostrar los diferentes tipos de los campos, tener en cuenta que en MySQL y MariaDB no existe el tipo BOOLEAN
-este es TINYINT(1) donde se almacena 1 si es TRUE o 0 si es FALSE.
-al igual mostrar el uso de DEFAULT para establecer el valor por defecto en caso que al momento de insertar un registro este
-campo tome un valor por defecto si no se ingresa valor, tambien se muestra el ON DELETE CASCADE que se usa cuando 
-se borra un registro en la tabla de referencia entonces se borra en la tabla que tiene la llave foranea, esto se usa mucho 
-en las tablas intermedias o pivote
-*/
-
+ Con este script se enseñan los conceptos base para crear base de datos, tablas y sus campos,
+ la idea es mostrar los diferentes tipos de los campos, tener en cuenta que en MySQL y MariaDB no existe el tipo BOOLEAN
+ este es TINYINT(1) donde se almacena 1 si es TRUE o 0 si es FALSE.
+ al igual mostrar el uso de DEFAULT para establecer el valor por defecto en caso que al momento de insertar un registro este
+ campo tome un valor por defecto si no se ingresa valor, tambien se muestra el ON DELETE CASCADE que se usa cuando 
+ se borra un registro en la tabla de referencia entonces se borra en la tabla que tiene la llave foranea, esto se usa mucho 
+ en las tablas intermedias o pivote
+ */
 CREATE DATABASE IF NOT EXISTS liteflix_db;
+
 USE liteflix_db;
 
 -- -----------------------------------------------------
@@ -72,8 +72,7 @@ CREATE TABLE IF NOT EXISTS movies (
   description TEXT NOT NULL,
   length INT NOT NULL,
   release_date DATE NULL,
-  rating INT NULL,
-  published TINYINT(1) DEFAULT FALSE
+  rating INT NULL
 );
 
 -- -----------------------------------------------------
