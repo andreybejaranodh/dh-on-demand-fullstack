@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LifeFlix</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <%- include('../partials/navbar.ejs') %>
+
+    <main>
+      <h1>Las mejores reservas de peliculas</h1>
+      <div class="container">
+        <% movies.forEach(m => { %>
+        <div class="card">
+          <h3><%= m.title %></h3>
+          <img src="https://picsum.photos/200" alt="La portada" />
+          <p><%= m.description %></p>
+          <p>Duracion: <%= m.length %></p>
+        </div>
+        <% }) %>
+      </div>
+
+      <div class="container">
+        <% published.forEach(m => { %>
+        <div class="card">
+          <h3><%= m.title %></h3>
+          <img src="https://picsum.photos/200" alt="La portada" />
+          <p><%= m.description %></p>
+          <p>Duracion: <%= m.length %></p>
+        </div>
+        <% }) %>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <%- include('../partials/footer.ejs') %>
+  </body>
+</html>

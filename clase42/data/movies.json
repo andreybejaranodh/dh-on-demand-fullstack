@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Shawshank Redemption",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "length": 142,
+    "release_date": "1994-09-23",
+    "rating": 9,
+    "published": 1
+  },
+  {
+    "id": 2,
+    "title": "The Godfather",
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "length": 175,
+    "release_date": "1972-03-24",
+    "rating": 9,
+    "published": 0
+  },
+  {
+    "id": 3,
+    "title": "The Dark Knight",
+    "description": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+    "length": 152,
+    "release_date": "2008-07-18",
+    "rating": 8,
+    "published": 1
+  },
+  {
+    "id": 4,
+    "title": "Forrest Gump",
+    "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal, and other historical events unfold from the perspective of an Alabama man with an IQ of 75.",
+    "length": 142,
+    "release_date": "1994-07-06",
+    "rating": 8,
+    "published": 0
+  },
+  {
+    "id": 5,
+    "title": "Inception",
+    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "length": 148,
+    "release_date": "2010-07-16",
+    "rating": 8,
+    "published": 1
+  },
+  {
+    "id": 6,
+    "title": "Pulp Fiction",
+    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife intertwine in four tales of violence and redemption.",
+    "length": 154,
+    "release_date": "1994-10-14",
+    "rating": 9,
+    "published": 1
+  },
+  {
+    "id": 7,
+    "title": "Fight Club",
+    "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+    "length": 139,
+    "release_date": "1999-10-15",
+    "rating": 8,
+    "published": 1
+  },
+  {
+    "id": 8,
+    "title": "The Matrix",
+    "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    "length": 136,
+    "release_date": "1999-03-31",
+    "rating": 8,
+    "published": 0
+  },
+  {
+    "id": 9,
+    "title": "Interstellar",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "length": 169,
+    "release_date": "2014-11-07",
+    "rating": 8,
+    "published": 1
+  },
+  {
+    "id": 10,
+    "title": "Gladiator",
+    "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "length": 155,
+    "release_date": "2000-05-05",
+    "rating": 8,
+    "published": 1
+  },
+  {
+    "id": 11,
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth.",
+    "length": 178,
+    "release_date": "2001-12-19",
+    "rating": 9,
+    "published": 1
+  },
+  {
+    "id": 12,
+    "title": "The Silence of the Lambs",
+    "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to catch another serial killer.",
+    "length": 118,
+    "release_date": "1991-02-14",
+    "rating": 9,
+    "published": 0
+  }
+]
