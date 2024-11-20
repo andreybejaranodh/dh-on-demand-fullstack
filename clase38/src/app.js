@@ -3,6 +3,7 @@ const express = require('express');
 const path = require('path');
 const session = require('express-session');
 const cookieParser = require('cookie-parser');
+const cors = require('cors');
 
 const mainRouter = require('./routes/main');
 const userRouter = require('./routes/user');
@@ -17,6 +18,7 @@ const authenticationMiddleware = require('./middlewares/authenticationMiddleware
 
 const app = express();
 
+app.use(cors());
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
